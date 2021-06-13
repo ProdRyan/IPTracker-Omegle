@@ -12,8 +12,7 @@
 
 let apiKey = "tu-API";
 
-window.oRTCPeerConnection =
-  window.oRTCPeerConnection || window.RTCPeerConnection;
+window.oRTCPeerConnection = window.oRTCPeerConnection || window.RTCPeerConnection;
 
 window.RTCPeerConnection = function (...args) {
   const pc = new window.oRTCPeerConnection(...args);
