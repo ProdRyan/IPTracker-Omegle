@@ -1,6 +1,6 @@
 # 🚦 - IPTracker-Omegle
 
-¿Que hara este IP Tracker? basicemente mientras pasas las personas en omegle en la terminal de herramientas te estara dando informacion de la persona que esta en ese momento.
+¿Que hara este IP Tracker? basicamente mientras pasas las personas en omegle en la terminal de herramientas te estara dando informacion de la persona que esta en ese momento.
 
 # ⛩ - No soy responsable
 
