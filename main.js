@@ -39,7 +39,8 @@ let getLocation = async (ip) => {
   await fetch(url).then((response) =>
     response.json().then((json) => {
       const output = `
-          ---------------------
+          ----------------------
+          IP-Tracker-Omegle by zNetShell - #HexSquad
           IP: ${ip}
           Pais: ${json.country_name}
           Estado: ${json.state_prov}
