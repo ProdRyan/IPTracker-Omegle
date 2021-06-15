@@ -1,7 +1,7 @@
 /*
                            Creditos
  ################################################################
- #                     Coded By zNetShell                       #
+ #                     Coded By xNetting                        #
  #              la API la saca desde ipgeolocation              #
  #           su uso es bastante simple, se mete a omegle        #
  #     abre una terminal de herramienta y ejecuta el script     #
@@ -39,7 +39,7 @@ let getLocation = async (ip) => {
     response.json().then((json) => {
       const output = `
           ----------------------
-          IP-Tracker-Omegle by zNetShell - #HexSquad
+          IP-Tracker-Omegle by xNetting - #HexSquad
           IP: ${ip}
           Pais: ${json.country_name}
           Estado: ${json.state_prov}
