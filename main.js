@@ -39,7 +39,7 @@ let getLocation = async (ip) => {
     response.json().then((json) => {
       const output = `
           ----------------------
-          IP-Tracker-Omegle by xNetting - #HexSquad
+          IP-Tracker-Omegle by xNetting - #CrakaSquad
           IP: ${ip}
           Pais: ${json.country_name}
           Estado: ${json.state_prov}
